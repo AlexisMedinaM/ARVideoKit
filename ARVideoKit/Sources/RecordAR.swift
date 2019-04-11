@@ -50,7 +50,7 @@ fileprivate var renderer:RenderAR!
     /**
      An object that allow customizing when to ask for Microphone permission, if needed. Default is `.auto`.
      */
-    @objc public var requestMicPermission:RecordARMicrophonePermission = .auto
+    @objc public var requestMicPermission:RecordARMicrophonePermission = .manual
     /**
      An object that allow customizing the video frame per second rate. Default is `.auto`.
      */
